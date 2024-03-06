@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +12,58 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zOs-2X-slR">
+                                <rect key="frame" x="0.0" y="337" width="393" height="179"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-godrej-white" translatesAutoresizingMaskIntoConstraints="NO" id="51p-kP-7hV">
+                                        <rect key="frame" x="76" y="58" width="241" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="ENX-Eo-4E7"/>
+                                            <constraint firstAttribute="width" constant="241" id="cHW-ta-LS4"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THINK SAFETY, THINK GODREJ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFi-NY-Rpl">
+                                        <rect key="frame" x="76" y="114" width="241" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="7nG-cO-2m1"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="241" id="AYM-Hl-vyK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.34103760795317417" green="0.65507895940617566" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="PFi-NY-Rpl" secondAttribute="trailing" constant="76" id="7aW-gg-EmK"/>
+                                    <constraint firstItem="PFi-NY-Rpl" firstAttribute="top" secondItem="51p-kP-7hV" secondAttribute="bottom" id="9wy-Ak-wwp"/>
+                                    <constraint firstAttribute="width" constant="393" id="Neh-eb-ueP"/>
+                                    <constraint firstAttribute="height" constant="179" id="PSJ-O1-LmN"/>
+                                    <constraint firstItem="51p-kP-7hV" firstAttribute="top" secondItem="zOs-2X-slR" secondAttribute="top" constant="58" id="e0t-EZ-Aim"/>
+                                    <constraint firstItem="51p-kP-7hV" firstAttribute="leading" secondItem="zOs-2X-slR" secondAttribute="leading" constant="76" id="e4u-aA-X3Z"/>
+                                    <constraint firstItem="PFi-NY-Rpl" firstAttribute="leading" secondItem="zOs-2X-slR" secondAttribute="leading" constant="76" id="ktF-zo-sxa"/>
+                                    <constraint firstAttribute="trailing" secondItem="51p-kP-7hV" secondAttribute="trailing" constant="76" id="wK8-Jz-Nd6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.34340137240000002" green="0.65211737160000005" blue="0.97160559889999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zOs-2X-slR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Bi-eF-GNH"/>
+                            <constraint firstItem="zOs-2X-slR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="278" id="QZv-4S-qKO"/>
+                            <constraint firstItem="zOs-2X-slR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VwJ-mH-7Iq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo-godrej-white" width="367" height="96"/>
+    </resources>
 </document>

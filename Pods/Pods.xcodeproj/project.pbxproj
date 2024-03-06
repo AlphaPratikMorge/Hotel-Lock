@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DAF3194AE78F853BAD5BA0910EE3EC /* DropDownCell.swift */; };
+		3B541061BAAF571CE9FF4D20D095B54D /* Pods-Hotel LockTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A023154762C5AB864D8776074E435C64 /* Pods-Hotel LockTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F369E8D1E3D21C70AAAE73515249CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45D8E49C6D5FAD11296F11630999B696 /* Pods-Hotel Lock-Hotel LockUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7662F2D2398A98654BAC4A305CB0F /* Pods-Hotel Lock-Hotel LockUITests-dummy.m */; };
+		4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7016EA4890B334B6819FAE0E4B8A0B /* DPDUIView+Extension.swift */; };
+		4B7C07D2BFFBE6559BFAB89DAB23CC59 /* Pods-Hotel Lock-Hotel LockUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEA286141720D49ABB5FA46D0C83D86 /* Pods-Hotel Lock-Hotel LockUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAA3BD46430FC5D892A0C9665BFEB27 /* Pods-Hotel LockTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A255AC5C360D456EE10B01308674DCB2 /* Pods-Hotel LockTests-dummy.m */; };
+		5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31C6F16B4F1E556289A0012E5E44A43 /* DPDConstants.swift */; };
+		6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2828437AFB3ECCB22931EF865157D40 /* DropDown+Appearance.swift */; };
+		842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC459FA892744918F4561F8ACF365D /* DropDown.swift */; };
+		898FA11A6A46170F23A2CBC8B13B7D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5FE98F02943B3686AC7810F54992AE /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC241BA16CA30E45DF33705BC697AE3E /* DropDown-dummy.m */; };
+		BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733B884441C3E6EB408D1140E5498CB0 /* DPDKeyboardListener.swift */; };
+		C99487C04757ECF4F73FA1D4519CFD6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D9D5FD35097989F71717ED9A4F0161F3 /* Pods-Hotel Lock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44181846DE1DA0B279A70887A6CDE57F /* Pods-Hotel Lock-dummy.m */; };
+		EAF24D5E38939B27F6E37AE5256DE4C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68AA3BA6D485B5AF8E3295850977F403 /* DropDownCell.xib */; };
+		FD7BA962DAA20292941F15D84CA05189 /* Pods-Hotel Lock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 280C317F74FAC5AE65BC8C9F23A8352C /* Pods-Hotel Lock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9366764EBCE1742F4104E90E23B1FE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C029D3FD1BE81D0305427DCF5577B381;
+			remoteInfo = "Pods-Hotel Lock";
+		};
+		97A7EF6D5B98DA7280DFC3CABE7223F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		D33EE23C996D111C852DC1E472FDB1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C39DC70FF4CC2E39735CC84663473CC /* Pods-Hotel Lock-Hotel LockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel Lock-Hotel LockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19EDBA60EDB7473C98768F2BA98061AE /* Pods_Hotel_Lock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hotel_Lock.framework; path = "Pods-Hotel Lock.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE7662F2D2398A98654BAC4A305CB0F /* Pods-Hotel Lock-Hotel LockUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hotel Lock-Hotel LockUITests-dummy.m"; sourceTree = "<group>"; };
+		1AF2CD9B1170280DDA5901A46EABD623 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		25FA34D7ACDDBFA33BE721D5CB1E2B8C /* Pods-Hotel Lock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel Lock.release.xcconfig"; sourceTree = "<group>"; };
+		280C317F74FAC5AE65BC8C9F23A8352C /* Pods-Hotel Lock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hotel Lock-umbrella.h"; sourceTree = "<group>"; };
+		29DAF3194AE78F853BAD5BA0910EE3EC /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		2B7016EA4890B334B6819FAE0E4B8A0B /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		2CEA286141720D49ABB5FA46D0C83D86 /* Pods-Hotel Lock-Hotel LockUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hotel Lock-Hotel LockUITests-umbrella.h"; sourceTree = "<group>"; };
+		32D7AE5AF1301534A891F08E9BD4A4BF /* Pods-Hotel Lock-Hotel LockUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hotel Lock-Hotel LockUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3ACC459FA892744918F4561F8ACF365D /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		3C3982936DA2A9BBD140A1FF0C616622 /* Pods_Hotel_Lock_Hotel_LockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hotel_Lock_Hotel_LockUITests.framework; path = "Pods-Hotel Lock-Hotel LockUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F84AFEF798E7F5777EBFCC95EB761F6 /* Pods-Hotel Lock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hotel Lock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44181846DE1DA0B279A70887A6CDE57F /* Pods-Hotel Lock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hotel Lock-dummy.m"; sourceTree = "<group>"; };
+		573138CD0D163D8CDEF2824FE27E02DC /* Pods-Hotel Lock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hotel Lock.modulemap"; sourceTree = "<group>"; };
+		5EE1D1584DE75A474069835504C3D1DC /* Pods_Hotel_LockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hotel_LockTests.framework; path = "Pods-Hotel LockTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6457024B0A03264FFAE3EB85EFADB199 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		68AA3BA6D485B5AF8E3295850977F403 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		733B884441C3E6EB408D1140E5498CB0 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		8006EA18FFC984CD0722A92CC5CDEC90 /* Pods-Hotel Lock-Hotel LockUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hotel Lock-Hotel LockUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82272215F187B3B8CF473A95156F1D5B /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		878867C691334826238CCA147BB9E5EF /* Pods-Hotel LockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel LockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		958B2E8FC8239DCF6C816ACEAA1C7C38 /* Pods-Hotel Lock-Hotel LockUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hotel Lock-Hotel LockUITests.modulemap"; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE7C39BE28F82DDA39808F4E89167DF /* Pods-Hotel LockTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hotel LockTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A023154762C5AB864D8776074E435C64 /* Pods-Hotel LockTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hotel LockTests-umbrella.h"; sourceTree = "<group>"; };
+		A03483D89FC3A0145D27CA4CCFD1D7D5 /* Pods-Hotel LockTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hotel LockTests.modulemap"; sourceTree = "<group>"; };
+		A255AC5C360D456EE10B01308674DCB2 /* Pods-Hotel LockTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hotel LockTests-dummy.m"; sourceTree = "<group>"; };
+		B31C6F16B4F1E556289A0012E5E44A43 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		BAB31FCC9F928D6F777382754F2E3395 /* Pods-Hotel LockTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hotel LockTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C32913CB17328F60F5C81C2E8940771E /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		C3538D8B5EACB0DA9F87C3DA322F802B /* Pods-Hotel Lock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel Lock.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C1463FE0B724784EE5F3E5E9496241 /* Pods-Hotel LockTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hotel LockTests-Info.plist"; sourceTree = "<group>"; };
+		D66AEA8AD3D0460A6452F4C9B9BD538F /* Pods-Hotel Lock-Hotel LockUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hotel Lock-Hotel LockUITests-Info.plist"; sourceTree = "<group>"; };
+		DA5FE98F02943B3686AC7810F54992AE /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		F2828437AFB3ECCB22931EF865157D40 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		F302ED127D4111B499DCE4106895C73A /* Pods-Hotel Lock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hotel Lock-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4198AF45607767DE457946FAC64A95B /* Pods-Hotel Lock-Hotel LockUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hotel Lock-Hotel LockUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F500CE6FF1257C655509D36BC0654A0B /* Pods-Hotel Lock-Hotel LockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel Lock-Hotel LockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8524BF7B170722E7C8BCC31937E73F0 /* Pods-Hotel Lock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hotel Lock-Info.plist"; sourceTree = "<group>"; };
+		F9D821EDCA5D765F569B435445A8C3BB /* Pods-Hotel LockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel LockTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB34619CA52D69D27B4AE6C5CAEAFFCD /* Pods-Hotel Lock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hotel Lock-frameworks.sh"; sourceTree = "<group>"; };
+		FC241BA16CA30E45DF33705BC697AE3E /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001C5C0E9929D2EE0C8499EDEB1A97F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF24D5E38939B27F6E37AE5256DE4C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD0A2D8B9AB2FB289F103C33DC1F72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898FA11A6A46170F23A2CBC8B13B7D57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673ADB4F00EF83A7D107F66023C8898E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F369E8D1E3D21C70AAAE73515249CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9727840973A9C2692E58F7089A7C243E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99487C04757ECF4F73FA1D4519CFD6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BB313130E830E05F5F57D7C3B165946 /* DropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BB313130E830E05F5F57D7C3B165946 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				B31C6F16B4F1E556289A0012E5E44A43 /* DPDConstants.swift */,
+				733B884441C3E6EB408D1140E5498CB0 /* DPDKeyboardListener.swift */,
+				2B7016EA4890B334B6819FAE0E4B8A0B /* DPDUIView+Extension.swift */,
+				3ACC459FA892744918F4561F8ACF365D /* DropDown.swift */,
+				F2828437AFB3ECCB22931EF865157D40 /* DropDown+Appearance.swift */,
+				29DAF3194AE78F853BAD5BA0910EE3EC /* DropDownCell.swift */,
+				F3CB77CA0351B87D28BEA0ACE72637C5 /* Resources */,
+				68FAE0A0F9ACA535262A313B2AB46DDD /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		57300DEBDD17108610724FFE30120994 /* Pods-Hotel LockTests */ = {
+			isa = PBXGroup;
+			children = (
+				A03483D89FC3A0145D27CA4CCFD1D7D5 /* Pods-Hotel LockTests.modulemap */,
+				9BE7C39BE28F82DDA39808F4E89167DF /* Pods-Hotel LockTests-acknowledgements.markdown */,
+				BAB31FCC9F928D6F777382754F2E3395 /* Pods-Hotel LockTests-acknowledgements.plist */,
+				A255AC5C360D456EE10B01308674DCB2 /* Pods-Hotel LockTests-dummy.m */,
+				C4C1463FE0B724784EE5F3E5E9496241 /* Pods-Hotel LockTests-Info.plist */,
+				A023154762C5AB864D8776074E435C64 /* Pods-Hotel LockTests-umbrella.h */,
+				878867C691334826238CCA147BB9E5EF /* Pods-Hotel LockTests.debug.xcconfig */,
+				F9D821EDCA5D765F569B435445A8C3BB /* Pods-Hotel LockTests.release.xcconfig */,
+			);
+			name = "Pods-Hotel LockTests";
+			path = "Target Support Files/Pods-Hotel LockTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68FAE0A0F9ACA535262A313B2AB46DDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82272215F187B3B8CF473A95156F1D5B /* DropDown.modulemap */,
+				C32913CB17328F60F5C81C2E8940771E /* DropDown.xcconfig */,
+				FC241BA16CA30E45DF33705BC697AE3E /* DropDown-dummy.m */,
+				1AF2CD9B1170280DDA5901A46EABD623 /* DropDown-Info.plist */,
+				6457024B0A03264FFAE3EB85EFADB199 /* DropDown-prefix.pch */,
+				DA5FE98F02943B3686AC7810F54992AE /* DropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		6DA07ADC9CB90ED73E77451295ED14C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				19EDBA60EDB7473C98768F2BA98061AE /* Pods_Hotel_Lock.framework */,
+				3C3982936DA2A9BBD140A1FF0C616622 /* Pods_Hotel_Lock_Hotel_LockUITests.framework */,
+				5EE1D1584DE75A474069835504C3D1DC /* Pods_Hotel_LockTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75829B4F337F00A7C55A124F1D9652E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D7AE5B37A3001BB13876CBC41A22929 /* Pods-Hotel Lock */,
+				CED9BD62A72FBB69360DA5E893E6CF46 /* Pods-Hotel Lock-Hotel LockUITests */,
+				57300DEBDD17108610724FFE30120994 /* Pods-Hotel LockTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9D7AE5B37A3001BB13876CBC41A22929 /* Pods-Hotel Lock */ = {
+			isa = PBXGroup;
+			children = (
+				573138CD0D163D8CDEF2824FE27E02DC /* Pods-Hotel Lock.modulemap */,
+				3F84AFEF798E7F5777EBFCC95EB761F6 /* Pods-Hotel Lock-acknowledgements.markdown */,
+				F302ED127D4111B499DCE4106895C73A /* Pods-Hotel Lock-acknowledgements.plist */,
+				44181846DE1DA0B279A70887A6CDE57F /* Pods-Hotel Lock-dummy.m */,
+				FB34619CA52D69D27B4AE6C5CAEAFFCD /* Pods-Hotel Lock-frameworks.sh */,
+				F8524BF7B170722E7C8BCC31937E73F0 /* Pods-Hotel Lock-Info.plist */,
+				280C317F74FAC5AE65BC8C9F23A8352C /* Pods-Hotel Lock-umbrella.h */,
+				C3538D8B5EACB0DA9F87C3DA322F802B /* Pods-Hotel Lock.debug.xcconfig */,
+				25FA34D7ACDDBFA33BE721D5CB1E2B8C /* Pods-Hotel Lock.release.xcconfig */,
+			);
+			name = "Pods-Hotel Lock";
+			path = "Target Support Files/Pods-Hotel Lock";
+			sourceTree = "<group>";
+		};
+		CED9BD62A72FBB69360DA5E893E6CF46 /* Pods-Hotel Lock-Hotel LockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				958B2E8FC8239DCF6C816ACEAA1C7C38 /* Pods-Hotel Lock-Hotel LockUITests.modulemap */,
+				32D7AE5AF1301534A891F08E9BD4A4BF /* Pods-Hotel Lock-Hotel LockUITests-acknowledgements.markdown */,
+				8006EA18FFC984CD0722A92CC5CDEC90 /* Pods-Hotel Lock-Hotel LockUITests-acknowledgements.plist */,
+				1AE7662F2D2398A98654BAC4A305CB0F /* Pods-Hotel Lock-Hotel LockUITests-dummy.m */,
+				F4198AF45607767DE457946FAC64A95B /* Pods-Hotel Lock-Hotel LockUITests-frameworks.sh */,
+				D66AEA8AD3D0460A6452F4C9B9BD538F /* Pods-Hotel Lock-Hotel LockUITests-Info.plist */,
+				2CEA286141720D49ABB5FA46D0C83D86 /* Pods-Hotel Lock-Hotel LockUITests-umbrella.h */,
+				F500CE6FF1257C655509D36BC0654A0B /* Pods-Hotel Lock-Hotel LockUITests.debug.xcconfig */,
+				0C39DC70FF4CC2E39735CC84663473CC /* Pods-Hotel Lock-Hotel LockUITests.release.xcconfig */,
+			);
+			name = "Pods-Hotel Lock-Hotel LockUITests";
+			path = "Target Support Files/Pods-Hotel Lock-Hotel LockUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
+				6DA07ADC9CB90ED73E77451295ED14C7 /* Products */,
+				75829B4F337F00A7C55A124F1D9652E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3CB77CA0351B87D28BEA0ACE72637C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68AA3BA6D485B5AF8E3295850977F403 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE67E2AC01FEC96CEDB0AA014BDD2AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B541061BAAF571CE9FF4D20D095B54D /* Pods-Hotel LockTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD0B7F575B2AEA80E38FD26AEE84D49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7BA962DAA20292941F15D84CA05189 /* Pods-Hotel Lock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC210A20E5D4896AC2190D79D7275A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7C07D2BFFBE6559BFAB89DAB23CC59 /* Pods-Hotel Lock-Hotel LockUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CE06430A8537D441D6900345413E14B /* Pods-Hotel LockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967D1FE10C71344ED5BDD4E7B59B3D43 /* Build configuration list for PBXNativeTarget "Pods-Hotel LockTests" */;
+			buildPhases = (
+				9EE67E2AC01FEC96CEDB0AA014BDD2AE /* Headers */,
+				FE2256BD7D0AA2519C47E056EE41BD75 /* Sources */,
+				5AD0A2D8B9AB2FB289F103C33DC1F72C /* Frameworks */,
+				1CD3F708BFC475BCF592FB7411F7F329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC95BAB6755653236FEC211A26F3C014 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hotel LockTests";
+			productName = "Pods-Hotel LockTests";
+			productReference = 5EE1D1584DE75A474069835504C3D1DC /* Pods_Hotel_LockTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C029D3FD1BE81D0305427DCF5577B381 /* Pods-Hotel Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBD430FB7FA0F738CD58287D0E57FCA /* Build configuration list for PBXNativeTarget "Pods-Hotel Lock" */;
+			buildPhases = (
+				9FD0B7F575B2AEA80E38FD26AEE84D49 /* Headers */,
+				F959A844E072324BC02A6893EADC0362 /* Sources */,
+				673ADB4F00EF83A7D107F66023C8898E /* Frameworks */,
+				BCB111126551971375B9F9CDBAA425D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C13AE0F510FAE463579E183A5AB1195B /* PBXTargetDependency */,
+			);
+			name = "Pods-Hotel Lock";
+			productName = "Pods-Hotel Lock";
+			productReference = 19EDBA60EDB7473C98768F2BA98061AE /* Pods_Hotel_Lock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB2C0D6DC8E83528406C7E04CD0F2E0E /* Pods-Hotel Lock-Hotel LockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28656748152BC3615B698E537DD21AD0 /* Build configuration list for PBXNativeTarget "Pods-Hotel Lock-Hotel LockUITests" */;
+			buildPhases = (
+				ADC210A20E5D4896AC2190D79D7275A2 /* Headers */,
+				742B590AADEB58DEC8BCAD36ABDC1C8C /* Sources */,
+				001C5C0E9929D2EE0C8499EDEB1A97F4 /* Frameworks */,
+				2A1D6BDD083743470B2B707DAD48D4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215827BC6E9793F84578C2030CDE0446 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hotel Lock-Hotel LockUITests";
+			productName = "Pods-Hotel Lock-Hotel LockUITests";
+			productReference = 3C3982936DA2A9BBD140A1FF0C616622 /* Pods_Hotel_Lock_Hotel_LockUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */,
+				FAFA782452D3B598A37FB459CD314120 /* Sources */,
+				9727840973A9C2692E58F7089A7C243E /* Frameworks */,
+				D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6DA07ADC9CB90ED73E77451295ED14C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				C029D3FD1BE81D0305427DCF5577B381 /* Pods-Hotel Lock */,
+				CB2C0D6DC8E83528406C7E04CD0F2E0E /* Pods-Hotel Lock-Hotel LockUITests */,
+				6CE06430A8537D441D6900345413E14B /* Pods-Hotel LockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CD3F708BFC475BCF592FB7411F7F329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D6BDD083743470B2B707DAD48D4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB111126551971375B9F9CDBAA425D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742B590AADEB58DEC8BCAD36ABDC1C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D8E49C6D5FAD11296F11630999B696 /* Pods-Hotel Lock-Hotel LockUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959A844E072324BC02A6893EADC0362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D5FD35097989F71717ED9A4F0161F3 /* Pods-Hotel Lock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA782452D3B598A37FB459CD314120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */,
+				BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */,
+				4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */,
+				842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */,
+				6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */,
+				95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */,
+				361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2256BD7D0AA2519C47E056EE41BD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAA3BD46430FC5D892A0C9665BFEB27 /* Pods-Hotel LockTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215827BC6E9793F84578C2030CDE0446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 97A7EF6D5B98DA7280DFC3CABE7223F9 /* PBXContainerItemProxy */;
+		};
+		AC95BAB6755653236FEC211A26F3C014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hotel Lock";
+			target = C029D3FD1BE81D0305427DCF5577B381 /* Pods-Hotel Lock */;
+			targetProxy = 9366764EBCE1742F4104E90E23B1FE1A /* PBXContainerItemProxy */;
+		};
+		C13AE0F510FAE463579E183A5AB1195B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = D33EE23C996D111C852DC1E472FDB1E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24242B68567EA92F01F6AC672B2E8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5987442AA530D81FDD25F6D88AD57C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D821EDCA5D765F569B435445A8C3BB /* Pods-Hotel LockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hotel LockTests/Pods-Hotel LockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hotel LockTests/Pods-Hotel LockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		775B31D1061EC9217349CB9341AD4EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B2A175F3B70D107074B1414DA676036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3538D8B5EACB0DA9F87C3DA322F802B /* Pods-Hotel Lock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hotel Lock/Pods-Hotel Lock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hotel Lock/Pods-Hotel Lock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CC2C0F588902F39D15CFA1C5D2BED1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C39DC70FF4CC2E39735CC84663473CC /* Pods-Hotel Lock-Hotel LockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hotel Lock-Hotel LockUITests/Pods-Hotel Lock-Hotel LockUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hotel Lock-Hotel LockUITests/Pods-Hotel Lock-Hotel LockUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D3DD85136A01038ACE98F63B065C23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FA34D7ACDDBFA33BE721D5CB1E2B8C /* Pods-Hotel Lock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hotel Lock/Pods-Hotel Lock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hotel Lock/Pods-Hotel Lock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B121B8E469562635496D60DD2CCA20C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F500CE6FF1257C655509D36BC0654A0B /* Pods-Hotel Lock-Hotel LockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hotel Lock-Hotel LockUITests/Pods-Hotel Lock-Hotel LockUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hotel Lock-Hotel LockUITests/Pods-Hotel Lock-Hotel LockUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C47E4EB8DA732CBB176AFD13A1F512FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32913CB17328F60F5C81C2E8940771E /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D839E9A7F6510DA9931257F58E3C5CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32913CB17328F60F5C81C2E8940771E /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E353B317562D717363A240DAEB1B4C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878867C691334826238CCA147BB9E5EF /* Pods-Hotel LockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hotel LockTests/Pods-Hotel LockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hotel LockTests/Pods-Hotel LockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28656748152BC3615B698E537DD21AD0 /* Build configuration list for PBXNativeTarget "Pods-Hotel Lock-Hotel LockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B121B8E469562635496D60DD2CCA20C8 /* Debug */,
+				7CC2C0F588902F39D15CFA1C5D2BED1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24242B68567EA92F01F6AC672B2E8287 /* Debug */,
+				775B31D1061EC9217349CB9341AD4EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967D1FE10C71344ED5BDD4E7B59B3D43 /* Build configuration list for PBXNativeTarget "Pods-Hotel LockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E353B317562D717363A240DAEB1B4C47 /* Debug */,
+				5987442AA530D81FDD25F6D88AD57C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBD430FB7FA0F738CD58287D0E57FCA /* Build configuration list for PBXNativeTarget "Pods-Hotel Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2A175F3B70D107074B1414DA676036 /* Debug */,
+				8D3DD85136A01038ACE98F63B065C23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D839E9A7F6510DA9931257F58E3C5CE6 /* Debug */,
+				C47E4EB8DA732CBB176AFD13A1F512FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
